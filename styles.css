@@ -1,0 +1,153 @@
+/* Reset some default styles */
+body, h1, h2, h3,h4, h5, p, ul, li, dl, dt, dd, form, table {
+    margin: 3;
+    padding: 0;
+}
+#ttl {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #61677A;
+    justify-self: center;
+}
+
+/* Set a background color and font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6F4EB}
+
+
+/* Style the header */
+header {
+    background-image:url(./dark-space.jpg);
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.hfirst {
+    color: #302f2f;
+    font-weight: bold;
+}
+.second {color: #0e0e0e;
+font-weight: bold;}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style the video and audio sections */
+video, audio {
+    width: 40%;
+display:flex;
+align-self: center;
+}
+
+/* Style the table */
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 2px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the select element */
+select {
+    padding: 5px;
+}
+
+/* Style the contact form */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    
+}
+input[type="email"],
+textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    
+}
+
+#btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Style the footer */
+footer {
+    background-image:url(./dark-space.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
